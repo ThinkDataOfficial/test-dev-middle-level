@@ -1,6 +1,6 @@
 # Teste desenvolvedor pleno
 
-## Teste 1 - Habilidades de programação
+## Teste 1 - Habilidades de programação (x3)
 
 -	Monte uma função que separa letras de números e remove caracteres especiais.
 
@@ -26,11 +26,11 @@
 -	Salve o arquivo no diretório Candidato/Processados com o nome {NomeOriginal}_YYYYMMDD_Resultado.TXT.
 -	Salve o arquivo original no diretório Candidato/Entrada
 
-## Teste 2 - Habilidades de banco de dados SQLSERVER
+## Teste 2 - Habilidades de banco de dados SQLSERVER (x2)
 
 
 
-## Teste 3 - Habilidades de análise (resolução de problemas)
+## Teste 3 - Habilidades de análise (resolução de problemas) (x5)
 
 Imagine que você precise adicionar uma funcionalidade em um WebApp existente. Você agora irá oferecer à seu cliente um serviço em que ele possa realizar uma negativação na Serasa.
 
@@ -39,11 +39,11 @@ Imagine que você precise adicionar uma funcionalidade em um WebApp existente. V
 Você sabe que:
 - Seu cliente possui diversos CNPJ em que ele gostaria de fazer a negativação.
 - A negativação é iniciada fazendo uma chamada à uma API da Serasa.
-- A API só devolve status 200 ou 404. Sem corpo de resposta.
+- A API devolve status 200 quando a requisição foi enviada com sucesso ou status 400 caso ela seja enviada de maneira incorreta. Sem corpo de resposta.
 - A negativação pela Serasa demora até 2 dias para devolver um resultado.
-- O retorno com o resultado da negativação é devolvido através de um FTP disponibilizado pela Serasa em um arquivo TXT de layout de tamanho fixo (mainframe).
+- O retorno com o resultado da negativação é devolvido através de um FTP disponibilizado pela Serasa em um arquivo TXT de layout com campos de tamanho fixo (estilo mainframe).
 - A Serasa realiza o processo de negativação, porém, não mantém um histórico do que foi negativado.
-- Quando um CNPJ paga sua dívida, ele precisa ser desnegativado. Este processo é feito pelo cliente que fez a negativação.
+- Quando um CNPJ paga sua dívida, ele precisa ser desnegativado. Este processo deve ser feito pelo cliente que fez a negativação em nossa plataforma.
 
-Descreva como resolveria este problema. Pode ser um vídeo, um Word, um ambiente simulado.
+Descreva como resolveria este problema. Pode ser um vídeo, um Word, um ambiente simulado. O importante é demonstrar uma solução.
 
