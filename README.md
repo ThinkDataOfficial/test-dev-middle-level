@@ -68,13 +68,6 @@ Monte 3 funções
 -	Salve o arquivo no diretório Nome do /files/output com o nome {NomeOriginal}_YYYYMMDD_Resultado.TXT.
 -	Salve o arquivo original no diretório /files/input/processed
 
-
-
-----------------------------------
-## Teste 2 - Habilidades de banco de dados SQLSERVER 
-
-
-
 ## Teste 3 - Habilidades de análise (resolução de problemas)
 
 Imagine que você precise adicionar uma funcionalidade em um WebApp existente. Você agora irá oferecer à seu cliente um serviço em que ele possa realizar uma negativação na Serasa.
