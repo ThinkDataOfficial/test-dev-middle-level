@@ -62,7 +62,7 @@ Monte 3 funções
 ### Regras e Informações
 - No campo de endereço, aplique a função criada no teste anterior chamando o endpoint criado na webApi.
 -	Altere a ordem e o formato do arquivo, para que o arquivo de saída seja conforme o layout definido [Layout de Saída](#layout-de-saída)
--	O endereço deve ficar separado em duas colunas, endereço e número
+-	O endereço deve ficar separado em três colunas, logradouro, número e complemento
 - É considerado complemento, tudo aquilo que vem após o primeiro número do endereço. *Ex.: R MARIA HELENA 405 CS 6 | o complemento é CS 6* 
 -	Os campos do layout de saída devem ser separados por TABs (ASCII 9).
 -	Salve o arquivo no diretório Nome do /files/output com o nome {NomeOriginal}_YYYYMMDD_Resultado.TXT.
@@ -77,7 +77,7 @@ Imagine que você precise adicionar uma funcionalidade em um WebApp existente. V
 Você sabe que:
 - Seu cliente possui diversos CNPJ em que ele gostaria de fazer a negativação.
 - A negativação é iniciada fazendo uma chamada à uma API da Serasa.
-- A API devolve status 200 quando a requisição foi enviada com sucesso ou status 400 caso ela seja enviada de maneira incorreta. Sem corpo de resposta.
+- A comunicação é feita através de uma API da Serasa e ela devolve status 200 quando a requisição foi enviada com sucesso ou status 400 caso a requisição seja enviada de maneira incorreta. Sem corpo de resposta.
 - A negativação pela Serasa demora até 2 dias para devolver um resultado.
 - O retorno com o resultado da negativação é devolvido através de um FTP disponibilizado pela Serasa em um arquivo TXT de layout com campos de tamanho fixo (estilo mainframe).
 - A Serasa realiza o processo de negativação, porém, não mantém um histórico do que foi negativado.
