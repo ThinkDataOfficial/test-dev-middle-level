@@ -60,7 +60,7 @@ Monte 3 funções
 </table>		 
 
 ### Regras e Informações
-- No campo de endereço, aplique a função criada no teste anterior chamando o endpoint criado na webApi. [Regras](#regras)
+- No campo de endereço, aplique a função criada no teste anterior chamando o endpoint criado na webApi.
 -	Altere a ordem e o formato do arquivo, para que o arquivo de saída seja conforme o layout definido [Layout de Saída](#layout-de-saída)
 -	O endereço deve ficar separado em duas colunas, endereço e número
 - É considerado complemento, tudo aquilo que vem após o primeiro número do endereço. *Ex.: R MARIA HELENA 405 CS 6 | o complemento é CS 6* 
