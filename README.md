@@ -14,10 +14,11 @@ Monte 3 funções
   
   Output: ```Rua Jose de Sa Brito 167 Apto 5 SAOPAULO SP```
   
--	Crie uma WebApi com um endpoint que receba uma string, execute as funções criadas no passo anterior nesta string e devolva o resultado UpperCase em um JSON.
+-	Crie uma WebApi com um endpoint `GET /sanitize/:endereco` que receba uma string, execute as funções criadas no passo anterior nesta string e devolva o resultado UpperCase em um JSON como exemplo:
 ```
   {
-    result: 'RUA JOSE DE SA BRITO 167 APTO 5 SAO PAULO SP'
+    input: 'Rua Jose de Sá brito167,apto@@@005SÃO PAULO – SP',
+    output: 'RUA JOSE DE SA BRITO 167 APTO 5 SAO PAULO SP'
   }
 ```
 -	Em seguida, crie uma aplicação do tipo Console Application e leia o arquivo CLIENTE_XPTO.TXT localizado na pasta /files/input e aplique as seguintes regras definida na sub-seção [Regras](#regras)
@@ -85,3 +86,6 @@ Você sabe que:
 
 Descreva como resolveria este problema. Pode ser um vídeo, um Word, um ambiente simulado. O importante é demonstrar uma solução.
 
+# Considerações
+
+Faça um fork desse projeto e suba sua resolução para o git. Pode ser uma PR aqui neste repositório ou um repo próprio. No caso de subir para um repo próprio envie um e-mail para adriano.giopato@thinkdata.com.br informando que o seu teste foi finalizado.
