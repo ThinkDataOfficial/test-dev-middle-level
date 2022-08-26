@@ -32,8 +32,8 @@ Monte 3 funções
 <tr>	<td>4</td>	<td>24</td>	<td>4</td>	<td>N</td>	<td>Número de DDD do telefone de contato da instituição informante </td>
 <tr>	<td>5</td>	<td>28</td>	<td>8</td>	<td>N</td>	<td>Número do telefone de contato da instituição informante </td>
 <tr>	<td>6</td>	<td>36</td>	<td>4</td>	<td>N</td>	<td>Número de ramal do telefone de contato da instituição informante</td>
-<tr>	<td>7</td>	<td>40</td>	<td>70</td>	<td>A</td>	<td>Nome do contato da instituição informante</td>
-<tr>	<td>8</td>	<td>110</td>	<td>200</td>	<td>X</td>	<td>Endereço (Contendo Tipo, Endereço, Numero, Complemento)</td>
+<tr>	<td>7</td>	<td>40</td>	<td>70</td>	<td>A</td>	<td>Nome/Razao Social da Instituição</td>
+<tr>	<td>8</td>	<td>110</td>	<td>200</td>	<td>X</td>	<td>Endereço (Tipo, Logradouro, Numero, Complemento)</td>
 <tr>	<td>9</td>	<td>310</td>	<td>50</td>	<td>A</td>	<td>Cidade</td>
 <tr>	<td>10</td>	<td>360</td>	<td>2</td>	<td>A</td>	<td>UF</td>
 <tr>	<td>11</td>	<td>362</td>	<td>8</td>	<td>N</td>	<td>CEP</td>
