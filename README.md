@@ -31,18 +31,18 @@ Monte 3 funções
 <tr>	<td>3</td>	<td>16</td>	<td>8</td>	<td>N</td>	<td>Data do movimento (AAAAMMDD) – data de geração do arquivo </td>
 <tr>	<td>4</td>	<td>24</td>	<td>4</td>	<td>N</td>	<td>Número de DDD do telefone de contato da instituição informante </td>
 <tr>	<td>5</td>	<td>28</td>	<td>8</td>	<td>N</td>	<td>Número do telefone de contato da instituição informante </td>
-<tr>	<td>6</td>	<td>36</td>	<td>4</td>	<td>N</td>	<td>Número de ramal do telefone de contato da instituição informante. </td>
-<tr>	<td>7</td>	<td>40</td>	<td>70</td>	<td>A</td>	<td>Nome/Razao Social da Instituição</td>
-<tr>	<td>8</td>	<td>110</td>	<td>200</td>	<td>X</td>	<td>Endereço (Tipo, Logradouro, Numero, Complemento)</td>
-<tr>	<td>9</td>	<td>310</td>	<td>6</td>	<td>A</td>	<td>Cidade</td>
-<tr>	<td>10</td>	<td>316</td>	<td>1</td>	<td>A</td>	<td>UF</td>
-<tr>	<td>11</td>	<td>317</td>	<td>4</td>	<td>N</td>	<td>CEP</td>
-<tr>	<td>12</td>	<td>321</td>	<td>3</td>	<td>X</td>	<td>Indentificacao do registro</td>
-<tr>	<td>13</td>	<td>324</td>	<td>8</td>	<td>X</td>	<td>Informar o LOGON a ser utilizado na contabilização das cartas comunicado e anotações.</td>
-<tr>	<td>14</td>	<td>332</td>	<td>101</td>	<td>X</td>	<td>Espaços em Branco</td>
-<tr>	<td>15</td>	<td>433</td>	<td>60</td>	<td>X</td>	<td>Código de erros – 3 posições</td>
-<tr>	<td>16</td>	<td>493</td>	<td>7</td>	<td>N</td>	<td>Seqüência do registro</td>
-</table>					
+<tr>	<td>6</td>	<td>36</td>	<td>4</td>	<td>N</td>	<td>Número de ramal do telefone de contato da instituição informante</td>
+<tr>	<td>7</td>	<td>40</td>	<td>70</td>	<td>A</td>	<td>Nome do contato da instituição informante</td>
+<tr>	<td>8</td>	<td>110</td>	<td>200</td>	<td>X</td>	<td>Endereço (Contendo Tipo, Endereço, Numero, Complemento)</td>
+<tr>	<td>9</td>	<td>310</td>	<td>50</td>	<td>A</td>	<td>Cidade</td>
+<tr>	<td>10</td>	<td>360</td>	<td>2</td>	<td>A</td>	<td>UF</td>
+<tr>	<td>11</td>	<td>362</td>	<td>8</td>	<td>N</td>	<td>CEP</td>
+<tr>	<td>12</td>	<td>370</td>	<td>3</td>	<td>N</td>	<td>Indentificação do registro</td>
+<tr>	<td>13</td>	<td>373</td>	<td>8</td>	<td>X</td>	<td>Informar o LOGON a ser utilizado na contabilização das cartas comunicado e anotações.</td>
+<tr>	<td>14</td>	<td>381</td>	<td>101</td>	<td>X</td>	<td>Espaços em Branco</td>
+<tr>	<td>15</td>	<td>482</td>	<td>3</td>	<td>X</td>	<td>Código de erros</td>
+<tr>	<td>16</td>	<td>485</td>	<td>7</td>	<td>N</td>	<td>Seqüência do registro</td>
+</table>					 
 
 
 ### Layout de saída
@@ -68,7 +68,7 @@ Monte 3 funções
 -	Salve o arquivo no diretório Nome do /files/output com o nome {NomeOriginal}_YYYYMMDD_Resultado.TXT.
 -	Salve o arquivo original no diretório /files/input/processed
 
-## Teste 3 - Habilidades de análise (resolução de problemas)
+## Teste 2 - Habilidades de análise (resolução de problemas)
 
 Imagine que você precise adicionar uma funcionalidade em um WebApp existente. Você agora irá oferecer à seu cliente um serviço em que ele possa realizar uma negativação na Serasa.
 
