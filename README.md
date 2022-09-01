@@ -62,12 +62,13 @@ Monte 3 funções
 
 ### Regras e Informações
 - No campo de endereço, aplique a função criada no teste anterior chamando o endpoint criado na webApi.
--	Altere a ordem e o formato do arquivo, para que o arquivo de saída seja conforme o layout definido [Layout de Saída](#layout-de-saída)
+-	Altere a ordem das colunas e o formato do arquivo, para que o arquivo de saída respeite o layout definido em [Layout de Saída](#layout-de-saída)
 -	O endereço deve ficar separado em três colunas, logradouro, número e complemento
 - É considerado complemento, tudo aquilo que vem após o primeiro número do endereço. *Ex.: R MARIA HELENA 405 CS 6 | o complemento é CS 6* 
 -	Os campos do layout de saída devem ser separados por TABs (ASCII 9).
 -	Salve o arquivo no diretório /files/output com o nome de {NomeOriginal}_YYYYMMDD_Resultado.TXT.
 -	Mova o arquivo original para o diretório /files/input/processed
+- Testes automatizados serão avaliados como um bom extra.
 
 ## Teste 2 - Habilidades de análise (resolução de problemas)
 
