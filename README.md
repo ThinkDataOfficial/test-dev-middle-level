@@ -66,8 +66,8 @@ Monte 3 funções
 -	O endereço deve ficar separado em três colunas, logradouro, número e complemento
 - É considerado complemento, tudo aquilo que vem após o primeiro número do endereço. *Ex.: R MARIA HELENA 405 CS 6 | o complemento é CS 6* 
 -	Os campos do layout de saída devem ser separados por TABs (ASCII 9).
--	Salve o arquivo no diretório Nome do /files/output com o nome {NomeOriginal}_YYYYMMDD_Resultado.TXT.
--	Salve o arquivo original no diretório /files/input/processed
+-	Salve o arquivo no diretório /files/output com o nome de {NomeOriginal}_YYYYMMDD_Resultado.TXT.
+-	Mova o arquivo original para o diretório /files/input/processed
 
 ## Teste 2 - Habilidades de análise (resolução de problemas)
 
