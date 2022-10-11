@@ -89,4 +89,4 @@ Descreva como resolveria este problema. Pode ser um vídeo, um Word, um ambiente
 
 # Considerações
 
-Faça um fork desse projeto e suba sua resolução para o git. Pode ser uma PR aqui neste repositório ou um repo próprio. No caso de subir para um repo próprio envie um e-mail para adriano.giopato@thinkdata.com.br informando que o seu teste foi finalizado.
+Faça um fork desse projeto e suba sua resolução para o git. Pode ser uma PR aqui neste repositório ou um repo próprio. No caso de subir para um repo próprio envie um e-mail para adriano@thinkdata.com.br informando que o seu teste foi finalizado.
